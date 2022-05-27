@@ -30,7 +30,6 @@ namespace IKI_RAN_Test_Task
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine("Э бля");
             int port;
             int.TryParse(PortTextBox.Text, out port);
             if(port != 0)
