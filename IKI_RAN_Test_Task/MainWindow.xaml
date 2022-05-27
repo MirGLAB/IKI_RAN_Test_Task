@@ -1,0 +1,15 @@
+﻿<Window x:Class="IKI_RAN_Test_Task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IKI_RAN_Test_Task"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="153" Width="264" Closing="Window_Closing">
+    <Grid Margin="10,10,10,11">
+        <Label x:Name="Label" Content="Введите номер порта:" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Height="25" RenderTransformOrigin="1.052,6.002"/>
+        <Button x:Name="Button" Content="ОК" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top" Width="64" Click="Button_Click"/>
+        <TextBox x:Name="PortTextBox" HorizontalAlignment="Left" Margin="141,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" MaxLength="5" PreviewTextInput="PreviewTextInput"/>
+
+    </Grid>
+</Window>
